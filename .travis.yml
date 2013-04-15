@@ -11,9 +11,9 @@ after_success:
 env:
   global:
   - PUBLISHER_LOGIN=garethr
-  - secure: ! 'YgwgKIHKoqTWpyO92xRU5DHUWQMBVr0R/QJZcYaV6LZAwU63kaeareoU2WZ6
-      spjsa1SlxrTl2v8/0K3qG86rZeqykO77tMcmKJ+0qbdQsO+uWHOZGZZsfhPe
-      fbbEhJdOH1Z5Mn09i8MO3HMIow198KX6nL1Gv6vwohMBnoo0X4o='
+  - secure: ! 'MN5JViiwCM+c2EzrYaZL9XhBnDEP6uk6u8s3/OM6oVS90sChxYtJd35DRonc
+      drhJuTK0ye/xfaWvIUtors3iJepOMYFcnxVaBplMOASedwLHhx9wo84w8ykE
+      H6xF01bOAQhp86/rSjJbgsUN3O0S6gHGTQi6n2elu7mYBkHgEcU='
   matrix:
   - PUPPET_VERSION=2.7.17
   - PUPPET_VERSION=2.7.18
